@@ -1,0 +1,24 @@
+# Configuration File
+
+data_root: TODO
+label_csv: TODO
+rgb_dir: TODO
+ms_band:
+  blue: TODO
+  green: TODO
+  red: TODO
+  rededge: TODO
+  nir: TODO
+rgb_prefix: '5.09RGB_' 
+ms_prefix: TODO
+input_size: 224
+add_indices: true
+ms_use_band_index: 0
+train_val_split: 0.8
+batch_size: 64
+epochs: 80
+lr: 3e-4
+weight_decay: 1e-2
+seed: 42
+num_workers: 8
+out_dir: outputs
